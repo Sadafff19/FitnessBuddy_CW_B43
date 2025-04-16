@@ -475,13 +475,13 @@ footer{
     align-items: center;
     justify-content: center;
     border-radius: var(--radius);
-    font-size: 0.875rem;
+    font-size: 0.885rem;
     font-weight: 500;
     height: 2.5rem;
     padding: 0 1rem;
     transition: all 0.2s;
     cursor: pointer;
-    border: none;
+    text-decoration: none;
 }
 
 .btn-lg {
@@ -516,6 +516,7 @@ footer{
   width: 50%;
   background-color: rgb(214, 214, 214);
   border: 1px solid black;
+  color: #21242c;
 }
 
 .btn-outline:hover {

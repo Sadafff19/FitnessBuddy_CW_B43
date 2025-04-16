@@ -20,7 +20,7 @@ const Navbar = () =>{
                     <input type="search" placeholder='Search Exercises like Squats, Push ups etc...' />
                 </div>
                 <div className='notify'>
-                    <NavLink to='/Home' className='norm' id='home'>Home</NavLink>
+                    <NavLink to='/' className='norm' id='home'>Home</NavLink>
                     <NavLink to='/Notifications' className='norm'><Bell/></NavLink>
                     <NavLink to='/Message' className='norm'><Send/></NavLink>
                     <NavLink to='/ProfilePage' className='pro'><CircleUserRound width='31px' height='31px'strokeWidth='1.5'/></NavLink>

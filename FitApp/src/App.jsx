@@ -18,7 +18,7 @@ function App() {
     <>
       <Navbar/>
       <Routes>
-        <Route path='Home' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/Notifications' element={<Notifications/>}/>
         <Route path='/Message' element={<Message/>}/>
         <Route path='/ProfilePage' element={<ProfilePage/>}/>

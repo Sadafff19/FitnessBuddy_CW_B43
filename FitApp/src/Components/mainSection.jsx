@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 const MainSection = () =>{
     return(
         <>
@@ -14,7 +16,7 @@ const MainSection = () =>{
                             place. Let's DO IT, Run, and grow together!
                             </p>
                     <div className="hero-buttons">
-                        <button className="btn btn-primary btn-lg">Get Started
+                        <NavLink to='/Login' className="btn btn-primary btn-lg">Get Started
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -30,12 +32,13 @@ const MainSection = () =>{
                         <path d="M5 12h14"></path>
                         <path d="m12 5 7 7-7 7"></path>
                       </svg>
-                    </button>
-                    <button
+                    </NavLink>
+                    <NavLink
+                      to='/Message'
                       className="btn btn-outline btn-lg"
                     >
-                      Explore Resources
-                    </button>
+                      Start Connecting
+                    </NavLink>
                   </div>
                   <div className="member-count">
                     <div className="avatar-group">
